@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <PackageId>Almostengr.FalconPiPlayer.ApiClient</PackageId>
+    <Company>Robinson Handy and Technology Services LLC</Company>
+    <Copyright>Copyright © $([System.DateTime]::UtcNow.ToString(yyyy)) Robinson Handy and Technology Services</Copyright>
+    <Product>Almostengr FalconPiPlayer API Client Library</Product>
+    <Authors>Kenny Robinson</Authors>
+    <AssemblyName>Almostengr.FalconPiPlayer.ApiClient</AssemblyName>
+    <RootNamespace>Almostengr.FalconPiPlayer.ApiClient</RootNamespace>
+    <Version>9.$([System.DateTime]::UtcNow.ToString(yyyy.MM.ddHH))</Version>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Almostengr.Common" Version="9.2025.8.2203" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.8" />
+  </ItemGroup>
+
+</Project>
