@@ -1,7 +1,6 @@
 using Almostengr.Common.Infrastructure;
 using Almostengr.FalconPiPlayer.ApiClient.Common.DomainServices.Resources;
 using Almostengr.FalconPiPlayer.ApiClient.Common.Shared;
-using Almostengr.FalconPiPlayer.ApiClient.Fppd.DomainServices.Resources;
 using Almostengr.FalconPiPlayer.ApiClient.System.DomainService.Interfaces;
 using Almostengr.FalconPiPlayer.ApiClient.System.DomainService.Resources;
 using Microsoft.Extensions.Options;

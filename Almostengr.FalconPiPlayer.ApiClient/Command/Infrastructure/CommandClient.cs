@@ -31,7 +31,7 @@ public class CommandClient : ICommandClient
         StringBuilder route = new();
         route.Append("api/command/");
         route.Append(resource.Command);
-        foreach (string argument in resource.Args)
+        foreach (string argument in resource.Arguments)
         {
             route.Append('/');
             route.Append(argument);

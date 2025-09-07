@@ -1,7 +1,11 @@
+using Almostengr.FalconPiPlayer.ApiClient.Command.DomainServices.Interfaces;
+using Almostengr.FalconPiPlayer.ApiClient.Command.Infrastructure;
 using Almostengr.FalconPiPlayer.ApiClient.Fppd.DomainServices.Interfaces;
 using Almostengr.FalconPiPlayer.ApiClient.Fppd.Infrastructure;
 using Almostengr.FalconPiPlayer.ApiClient.Media.DomainService.Interfaces;
 using Almostengr.FalconPiPlayer.ApiClient.Media.Infrastructure;
+using Almostengr.FalconPiPlayer.ApiClient.Scripts.DomainService.Interfaces;
+using Almostengr.FalconPiPlayer.ApiClient.Scripts.Infrastructure;
 using Almostengr.FalconPiPlayer.ApiClient.System.DomainService.Interfaces;
 using Almostengr.FalconPiPlayer.ApiClient.System.Infrastructure;
 using Microsoft.Extensions.Configuration;
@@ -15,8 +19,10 @@ public static class FalconPiPlayerApiClientExtensions
     {
         // services.AddHttpClient();
         // services.AddTransient(services.Configure<FppApiClientSettings>(configuration.GetSection(nameof(FppApiClientSettings))));
+        services.AddTransient<ICommandClient, CommandClient>();
         services.AddTransient<IFppdClient, FppdClient>();
         services.AddTransient<IMediaClient, MediaClient>();
+        services.AddTransient<IScriptsClient, ScriptsClient>();
         services.AddTransient<ISystemClient, SystemClient>();
     }
 }
