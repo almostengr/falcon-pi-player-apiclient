@@ -2,7 +2,7 @@ using Almostengr.FalconPiPlayer.ApiClient.Common.DomainServices.Resources;
 
 namespace Almostengr.FalconPiPlayer.ApiClient.Fppd.DomainServices.Resources;
 
-public class FppdE131StatsResource : FppStatusMessageResource
+public class FppdE131StatsResource : FppStatusResponseResource
 {
     public IEnumerable<StatUniverse> StatUniverses { get; set; }
 

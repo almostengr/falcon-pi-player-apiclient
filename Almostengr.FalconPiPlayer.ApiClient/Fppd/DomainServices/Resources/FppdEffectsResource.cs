@@ -2,7 +2,7 @@ using Almostengr.FalconPiPlayer.ApiClient.Common.DomainServices.Resources;
 
 namespace Almostengr.FalconPiPlayer.ApiClient.Fppd.DomainServices.Resources;
 
-public class FppdEffectsResource : FppStatusMessageResource
+public class FppdEffectsResource : FppStatusResponseResource
 {
     public IEnumerable<RunningEffect> RunningEffects { get; set; }
 

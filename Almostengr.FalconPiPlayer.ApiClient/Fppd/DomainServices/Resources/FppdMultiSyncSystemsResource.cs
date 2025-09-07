@@ -2,7 +2,7 @@ using Almostengr.FalconPiPlayer.ApiClient.Common.DomainServices.Resources;
 
 namespace Almostengr.FalconPiPlayer.ApiClient.Fppd.DomainServices.Resources;
 
-public class FppdMultiSyncSystemsResource : FppStatusMessageResource
+public class FppdMultiSyncSystemsResource : FppStatusResponseResource
 {
     public IEnumerable<SyncSystems> Systems { get; set; }
 

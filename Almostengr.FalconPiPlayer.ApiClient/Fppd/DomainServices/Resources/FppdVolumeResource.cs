@@ -4,7 +4,7 @@ using Newtonsoft.Json;
 
 namespace Almostengr.FalconPiPlayer.ApiClient.Fppd.DomainServices.Resources;
 
-public class FppdVolumeResource : FppStatusMessageResource
+public class FppdVolumeResource : FppStatusResponseResource
 {
     [JsonPropertyName("volume")]    public int Volume { get; set; }
 }

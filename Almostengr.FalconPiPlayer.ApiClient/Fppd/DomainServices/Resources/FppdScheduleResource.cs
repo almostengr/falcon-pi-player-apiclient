@@ -2,7 +2,7 @@ using Almostengr.FalconPiPlayer.ApiClient.Common.DomainServices.Resources;
 
 namespace Almostengr.FalconPiPlayer.ApiClient.Fppd.DomainServices.Resources;
 
-public class FppdScheduleResource : FppStatusMessageResource
+public class FppdScheduleResource : FppStatusResponseResource
 {
     public ScheduleSchedule Schedule { get; set; }
 

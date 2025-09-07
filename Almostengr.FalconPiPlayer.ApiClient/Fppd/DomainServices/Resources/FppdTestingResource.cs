@@ -2,7 +2,7 @@ using Almostengr.FalconPiPlayer.ApiClient.Common.DomainServices.Resources;
 
 namespace Almostengr.FalconPiPlayer.ApiClient.Fppd.DomainServices.Resources;
 
-public class FppdTestingResource : FppStatusMessageResource
+public class FppdTestingResource : FppStatusResponseResource
 {
     public Configuration Config { get; set; }
 

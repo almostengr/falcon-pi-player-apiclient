@@ -7,5 +7,4 @@ public interface IMediaClient
     Task<IEnumerable<string>> GetListAsync();
     // Task<MediaDurationResource> GetDurationAsync(MediaNameResource resource);
     Task<MediaMetaResource> GetMetaAsync(MediaNameResource resource);
-
 }

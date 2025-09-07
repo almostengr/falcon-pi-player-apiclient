@@ -2,7 +2,7 @@ using Almostengr.FalconPiPlayer.ApiClient.Common.DomainServices.Resources;
 
 namespace Almostengr.FalconPiPlayer.ApiClient.Fppd.DomainServices.Resources;
 
-public class FppdMultiSyncStatsResource : FppStatusMessageResource
+public class FppdMultiSyncStatsResource : FppStatusResponseResource
 {
     public string MasterHostname { get; set; }
     public string MasterIp { get; set; }
