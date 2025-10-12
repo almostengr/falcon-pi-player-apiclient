@@ -1,0 +1,51 @@
+namespace Almostengr.FalconPiPlayer.ApiClient.Command.Shared;
+
+public sealed class CommandName
+{
+    public const string AllLightsOff = "All Lights Off";
+    public const string EffectStart = "Effect Start";
+    public const string EffectsStop = "Effects Stop";
+    public const string ExtendSchedule = "Extend Schedule";
+    public const string FseqEffectStart = "FSEQ Effect Start";
+    public const string FseqEffectStop = "FSEQ Effect Stop";
+    public const string Gpio = "GPIO";
+    public const string InsertPlaylistAfterCurrent = "Insert Playlist After Current";
+    public const string InsertPlaylistImmediate = "Insert Playlist Immediate";
+    public const string InsertRandomItemFromPlaylist = "InsertRandomItemFromPlaylist";
+    public const string NextPlaylistItem = "Next Playlist Item";
+    public const string OverlayModelClear = "Overlay Model Clear";
+    public const string OverlayModelEffect = "Overlay Model Effect";
+    public const string OverlayModelFill = "Overlay Model Fill";
+    public const string OverlayModelState = "Overlay Model State";
+    public const string PausePlaylist = "Pause Playlist";
+    public const string PlayMedia = "Play Media";
+    public const string PrevPlaylistItem = "Prev Playlist Item";
+    public const string RemoteEffectStart = "Remote Effect Start";
+    public const string RemoteEffectStop = "Remote Effect Stop";
+    public const string RemoteFseqEffectStart = "Remote FSEQ Effect Start";
+    public const string RemotePlaylistStart = "Remote Playlist Start";
+    public const string RemoteRunScript = "Remote Run Script";
+    public const string RemoteTriggerCommandPreset = "Remote Trigger Command Preset";
+    public const string RemoteTriggerCommandPresetSlot = "Remote Trigger Command Preset Slot";
+    public const string RestartPlaylistItem = "RestartPlaylistItem";
+    public const string ResumePlaylist = "Resume Playlist";
+    public const string StartNextScheduledItem = "Start Next Scheduled Item";
+    public const string StartPlaylist = "Start Playlist";
+    public const string StartPlaylistAtItem = "Start Playlist At Item";
+    public const string StartPlaylistAtRandomItem = "Start Playlist At Random Item";
+    public const string StopGracefully = "Stop Gracefully";
+    public const string StopNow = "StopNow";
+    public const string TestStart = "Test Start";
+    public const string TestStop = "Test Stop";
+    public const string TogglePlaylist = "TogglePlaylist";
+    public const string TriggerCommandPreset = "Trigger Command Preset";
+    public const string TriggerCommandPresetinFuture = "Trigger Command Preset In Future";
+    public const string TriggerCommandPresetSlot = "Trigger Command Preset Slot";
+    public const string TriggerMultipleCommandPresetSlots = "Trigger Multiple Command Preset Slots";
+    public const string TriggerMultipleCommandPresets = "Trigger Multiple Command Presets";
+    public const string Url = "Url";
+    public const string VolumeAdjust = "Volume Adjust";
+    public const string VolumeDecrease = "Volume Decrease";
+    public const string VolumeIncrease = "Volume Increase";
+    public const string VolumeSet = "Volume Set";
+}
