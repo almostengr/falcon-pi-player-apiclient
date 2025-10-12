@@ -13,11 +13,14 @@
     <RootNamespace>Almostengr.FalconPiPlayer.ApiClient</RootNamespace>
     <Version>9.$([System.DateTime]::UtcNow.ToString(yyyy.MM.ddHH))</Version>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/almostengr/falcon-pi-player-apiclient.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Almostengr.Common" Version="9.2025.8.2203" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.8" />
+    <None Include="README.md" Pack="true" PackagePath="\" />
   </ItemGroup>
 
 </Project>
