@@ -19,8 +19,10 @@ public static class FalconPiPlayerApiClientExtensions
 {
     public static void AddFalconPiPlayerApiClientServices(this IServiceCollection services, IConfigurationManager configuration)
     {
-        // services.AddHttpClient();
-        // services.AddTransient(services.Configure<FppApiClientSettings>(configuration.GetSection(nameof(FppApiClientSettings))));
+        services.AddHttpClient();
+            services.Configure<FappAppsett configuration.GetSec Cration(nameof(FppApiClientSettings))
+        services.AddTransient(
+            );
         services.AddTransient<ICommandClient, CommandClient>();
         services.AddTransient<IFppdClient, FppdClient>();
         services.AddTransient<IMediaClient, MediaClient>();
